@@ -1,28 +1,37 @@
 <p align="center">
-    <a href="https://github.com/weebzone/WZML">
-        <kbd>
-            <img width="250" src="https://graph.org/file/639fe4239b78e5862b302.jpg" alt="WZML-X Logo">
-        </kbd>
+    <a href="https://github.com/SunilSSBots/ssleech-hk">
+        <img width="760" src="https://raw.githubusercontent.com/SunilSSBots/HK-Deploy/main/assets/ssleech-thumbnail.jpg" alt="SSLeech Telegram bot thumbnail">
     </a>
-
-<i>A Telegram Bot written in Python using Pyrogram Framework for mirroring/cloning online/local files on the Internet to your Google Drive, Telegram or to any RClone supported cloud. Based on [python-aria-mirror-bot](https://github.com/lzzy12/python-aria-mirror-bot). This is Enhanced Version of Base Repo [mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot)</i>
-
 </p>
 
-<div align=center>
+<div align="center">
 
-----
+# SSLeech
 
-[![](https://img.shields.io/github/repo-size/weebzone/WZML-X?color=green&label=Repo%20Size&labelColor=292c3b)](#) [![](https://img.shields.io/github/commit-activity/m/weebzone/WZML-X?logo=github&labelColor=292c3b&label=Github%20Commits)](#) [![](https://img.shields.io/github/license/weebzone/WZML-X?style=flat&label=License&labelColor=292c3b)](#)|[![](https://img.shields.io/github/issues-raw/weebzone/WZML-X?style=flat&label=Open%20Issues&labelColor=292c3b)](#) [![](https://img.shields.io/github/issues-closed-raw/weebzone/WZML-X?style=flat&label=Closed%20Issues&labelColor=292c3b)](#) [![](https://img.shields.io/github/issues-pr-raw/weebzone/WZML-X?style=flat&label=Open%20Pull%20Requests&labelColor=292c3b)](#) [![](https://img.shields.io/github/issues-pr-closed-raw/weebzone/WZML-X?style=flat&label=Closed%20Pull%20Requests&labelColor=292c3b)](#)
-:---:|:---:|
-[![](https://img.shields.io/github/languages/count/weebzone/WZML-X?style=flat&label=Total%20Languages&labelColor=292c3b&color=blueviolet)](#) [![](https://img.shields.io/github/languages/top/weebzone/WZML-X?style=flat&logo=python&labelColor=292c3b)](#) [![](https://img.shields.io/github/last-commit/weebzone/WZML-X?style=flat&label=Last%20Commit&labelColor=292c3b&color=important)](#) [![](https://badgen.net/github/branches/weebzone/WZML-X?label=Total%20Branches&labelColor=292c3b)](#)|[![](https://img.shields.io/github/forks/weebzone/WZML-X?style=flat&logo=github&label=Forks&labelColor=292c3b&color=critical)](#) [![](https://img.shields.io/github/stars/weebzone/WZML-X?style=flat&logo=github&label=Stars&labelColor=292c3b&color=yellow)](#) [![](https://badgen.net/docker/pulls/codewithweeb/weebzone?icon=docker&label=Pulls&labelColor=292c3b&color=blue)](#)
-[![](https://img.shields.io/badge/Telegram%20Channel-Join-9cf?style=for-the-badge&logo=telegram&logoColor=blue&style=flat&labelColor=292c3b)](https://t.me/WZML_X) |[![](https://img.shields.io/badge/Support%20Group-Join-9cf?style=for-the-badge&logo=telegram&logoColor=blue&style=flat&labelColor=292c3b)](https://t.me/WZML_Support) |
+### Telegram automation for mirroring, leeching, and cloud transfers
+
+SSLeech is a Python Telegram bot built with Pyrogram for downloading, mirroring, cloning, and uploading files between Telegram, direct links, torrents, Google Drive, and RClone-compatible cloud storage.
+
+<p>
+    <a href="https://colab.research.google.com/github/SunilSSBots/HK-Deploy/blob/main/ssleech_hk_deploy.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Google Colab"></a>
+    <a href="https://github.com/SunilSSBots/ssleech-hk"><img src="https://img.shields.io/badge/Source-SSLeech-2563eb?style=flat&logo=github&logoColor=white" alt="SSLeech source repository"></a>
+    <a href="https://github.com/SunilSSBots/HK-Deploy"><img src="https://img.shields.io/badge/Deploy-Heroku%20Kit-7d2ae8?style=flat&logo=heroku&logoColor=white" alt="Heroku deployment kit"></a>
+    <a href="https://hub.docker.com/r/sunilsharmanp/ssbots_heroku"><img src="https://img.shields.io/badge/Docker-ssbots__heroku-2496ed?style=flat&logo=docker&logoColor=white" alt="SSBots Heroku Docker image"></a>
+</p>
 
 </div>
 
 ---
 
-## 📑 ***Repo Features***
+## Project Overview
+
+SSLeech is an enhanced mirror and leech bot designed for reliable file automation. It supports queue-based downloads, multi-destination uploads, status tracking, cloud storage tools, media processing, and extensive per-user configuration.
+
+This project builds on ideas from [python-aria-mirror-bot](https://github.com/lzzy12/python-aria-mirror-bot) and [mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot).
+
+---
+
+## Features
 
 <details>
   <summary><b>View All Features <sup><kbd>Click Here</kbd></sup></b></summary>
@@ -184,7 +193,7 @@
 - Almost all repository functions have been improved and many other details can't mention all of them
 - Many bugs have been fixed
 - Bot Limits for each user
-- View In Brief on WZML_X Tg Channel
+- View the latest project updates in the SSLeech repository
 
 </details>
 <details>
@@ -212,7 +221,7 @@
 
 ---
 
-## 🗄 ***Deployment Guide***
+## Deployment Guide
 
 <details>
   <summary><b>View All Steps</b> <sup><kbd>Click Here</kbd></sup></summary>
@@ -230,7 +239,7 @@
 - Clone this repo:
 
 ```
-git clone https://github.com/weebzone/WZML-X mirrorbot/ && cd mirrorbot
+git clone https://github.com/SunilSSBots/ssleech-hk ssleech/ && cd ssleech
 ```
 
 - For Debian based distros
@@ -293,13 +302,13 @@ sudo dockerd
 - Build Docker image:
 
 ```
-sudo docker build . -t wzmlx
+sudo docker build . -t ssleech
 ```
 
 - Run the image:
 
 ```
-sudo docker run -p 80:80 -p 8080:8080 wzmlx
+sudo docker run -p 80:80 -p 8080:8080 ssleech
 ```
 
 - To stop the running image:
@@ -316,7 +325,7 @@ sudo docker stop id
 
 #### Build And Run The Docker Image Using docker-compose
 
-**NOTE**: If you want to use ports other than 80 and 8080 for torrent file selection and rclone serve respectively, change it in [docker-compose.yml](https://github.com/weebzone/WZML-X/blob/master/docker-compose.yml) also.
+**NOTE**: If you want to use ports other than 80 and 8080 for torrent file selection and RClone serve, update the corresponding values in `docker-compose.yml` before starting the container.
 
 - Install docker-compose
 
@@ -385,7 +394,7 @@ sudo docker image prune -a
     
 ------
 
-### 🤖 ***Bot Commands***
+## Bot Commands
 
 <details>
   <summary>Bot commands can be automatically set by <code>SET_COMMANDS</code> Var <sup><kbd>View All Commands</kbd></sup></summary>
@@ -420,7 +429,7 @@ help - All cmds with description
 </details>
 
 
-### 📝 ***Variables Description:***
+## Configuration Reference
 
 <details>
     <summary><b>View All Variables </b><sup><kbd>Click Here</kbd></sup></summary>
@@ -437,14 +446,14 @@ help - All cmds with description
         <summary><b>Optional Fields</b></summary>
 
     - `USER_SESSION_STRING`: To download/upload from your telegram account and to send rss. To generate session string use this command `python3 generate_string_session.py` after mounting repo folder for sure. `Str`. **NOTE**: You can't use bot with private message. Use it with superGroup.
-    - `DATABASE_URL`: Your Mongo Database URL (Connection string). Follow this [Generate Database](https://github.com/weebzone/WZML-X/tree/master#generate-database) to generate database. Data will be saved in Database: auth and sudo users, users settings including thumbnails for each user, rss data and incomplete tasks. **NOTE**: You can always edit all settings that saved in database from the official site -> (Browse collections). `Str`
+    - `DATABASE_URL`: Your MongoDB connection string. Follow the [MongoDB setup guide](#generate-a-mongodb-database) to create a database. The database stores authentication data, sudo users, user settings, thumbnails, RSS data, and incomplete tasks. `Str`
     - `DOWNLOAD_DIR`: The path to the local folder where the downloads should be downloaded to. `Str`
     - `CMD_SUFFIX`: commands index number. This number will added at the end all commands. `Str`|`Int`
     - `AUTHORIZED_CHATS`: Fill user_id and chat_id of groups/users you want to authorize. Separate them by space. `Int`
     - `SUDO_USERS`: Fill user_id of users whom you want to give sudo permission. Separate them by space. `Int`
     - `BLACKLIST_USERS` : Fill user_id of users you wish to prohibit from using the bot. Separate them by space. `Int`
     - `STATUS_LIMIT`: Limit the no. of tasks shown in status message with buttons. Default is `10`. **NOTE**: Recommended limit is `4` tasks. `Int`
-    - `DEFAULT_UPLOAD`: Whether `rc` to upload to `RCLONE_PATH` or `gd` to upload to `GDRIVE_ID` or `ddl` to upload to `DDL`. Default is `gd`. Read More [HERE](https://github.com/weebzone/WZML-X/tree/master#upload).`Str`
+    - `DEFAULT_UPLOAD`: Select `rc` for `RCLONE_PATH`, `gd` for `GDRIVE_ID`, or `ddl` for a supported DDL server. The default is `gd`. See the [Multi-Upload System](#multi-upload-system) section. `Str`
     - `STATUS_UPDATE_INTERVAL`: Time in seconds after which the progress/status message will be updated. Recommended `10` seconds at least. `Int`
     - `AUTO_DELETE_MESSAGE_DURATION`: Interval of time (in seconds), after which the bot deletes it's message and command message which is expected to be viewed instantly. **NOTE**: Set to `-1` to disable auto message deletion. `Int`
     - `INCOMPLETE_TASK_NOTIFIER`: Get incomplete task messages after restart. Require database and superGroup. Default is `False`. `Bool`
@@ -462,9 +471,9 @@ help - All cmds with description
 
     - `GDRIVE_ID`: This is the Folder/TeamDrive ID of the Google Drive OR `root` to which you want to upload all the mirrors using google-api-python-client. `Str`
     - `USER_TD_MODE`: Enable the User-TD feature i.e user can upload file into their own drive. Default is `False`. `Bool`
-    - `USER_TD_SA`: Show your SA account in the usetting so that user can add that in its own TD to enable uploading Using SA. SA will be an email/group_email like `wzml-x@googlegroups.com`
+    - `USER_TD_SA`: Show the service-account email in user settings so users can add it to their own Team Drive. Example: `ssleech@example.com`.
     - `INDEX_URL`: Refer to <https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index>. `Str`
-    - `USE_SERVICE_ACCOUNTS`: Whether to use Service Accounts or not, with google-api-python-client. For this to work see [Using Service Accounts](https://github.com/weebzone/WZML-X#generate-service-accounts-what-is-service-account) section below. Default is `False`. `Bool`
+    - `USE_SERVICE_ACCOUNTS`: Enable service accounts for Google Drive uploads. See [Using Service Accounts](#using-service-accounts). The default is `False`. `Bool`
     - `IS_TEAM_DRIVE`: Set `True` if uploading to TeamDrive using google-api-python-client. Default is `False`. `Bool`
     - `STOP_DUPLICATE`: Bot will check file/folder name in Drive incase uploading to `GDRIVE_ID`. If it's present in Drive then downloading or cloning will be stopped. (**NOTE**: Item will be checked using name and not hash, so this feature is not perfect yet). Default is `False`. `Bool`
     - `DISABLE_DRIVE_LINK`: Disable drive link button. Default is `False`. `Bool`
@@ -496,7 +505,7 @@ help - All cmds with description
         <summary><b>Update</b></summary>
 
     - `UPSTREAM_REPO`: Your github repository link, if your repo is private add `https://username:{githubtoken}@github.com/{username}/{reponame}` format. Get token from [Github settings](https://github.com/settings/tokens). So you can update your bot from filled repository on each restart. `Str`.
-       - **NOTE**: Any change in docker or requirements you need to deploy/build again with updated repo to take effect. DON'T delete .gitignore file. For more information read [THIS](https://github.com/weebzone/WZML-X/tree/master#upstream-repo-recommended).
+       - **NOTE**: Changes to Docker files or dependencies require a new build and deployment. Do not delete `.gitignore`. See [Upstream Repository](#upstream-repository) for details.
     - `UPSTREAM_BRANCH`: Upstream branch for update. Default is `master`. `Str`
 
     </details></li>
@@ -646,7 +655,7 @@ help - All cmds with description
 
 ------
 
-### 🖨 ***Getting Google OAuth API credential file and `token.pickle`***
+## Google Drive OAuth Credentials
 
 <details>
     <summary><b>View All Steps<b><sup><kbd>Click to Expand</kbd></sup></summary>
@@ -663,7 +672,7 @@ help - All cmds with description
 4. Choose Desktop and Create.
 5. Publish your OAuth consent screen App to prevent **token.pickle** from expire
 6. Use the download button to download your credentials.
-7. Move that file to the root of mirrorbot, and rename it to **credentials.json**
+7. Move that file to the root of the SSLeech repository and rename it to **credentials.json**
 8. Visit [Google API page](https://console.developers.google.com/apis/library)
 9. Search for Google Drive Api and enable it
 10. Finally, run the script to generate **token.pickle** file for Google Drive:
@@ -677,7 +686,7 @@ python3 generate_drive_token.py
     
 ------
 
-### 🧾 ***Generate `rclone.conf`***
+## Generate `rclone.conf`
 
 <details>
     <summary><b>View All Steps<b><sup><kbd>Click to Expand</kbd></sup></summary>
@@ -697,7 +706,7 @@ python3 generate_drive_token.py
     
 ------
 
-### 🔍 ***Multi Upload System***
+## Multi-Upload System
 
 <details>
     <summary><b>View All Description<b><sup><kbd>Click to Expand</kbd></sup></summary>
@@ -715,7 +724,7 @@ python3 generate_drive_token.py
     
 ------
 
-### 📃 ***UPSTREAM REPO (Recommended)***
+## Upstream Repository
 
 <details>
     <summary><b>View All Variables<b><sup><kbd>Click to Expand</kbd></sup></summary>
@@ -732,7 +741,7 @@ python3 generate_drive_token.py
     
 ------
 
-### 🌱 ***Bittorrent Seed***
+## BitTorrent Seeding
 
 <details>
     <summary><b>View All Notes<b><sup><kbd>Click to Expand</kbd></sup></summary>
@@ -752,7 +761,7 @@ python3 generate_drive_token.py
         
 ------
 
-### 📈 ***Using Service Accounts (User Rate Limit)***
+## Using Service Accounts
 
 <details>
     <summary><b>View All Notes<b><sup><kbd>Click to Expand</kbd></sup></summary>
@@ -861,7 +870,7 @@ python3 add_to_team_drive.py -d SharedTeamDriveSrcID
     
 ------
 
-### 📡 ***Generate MongoDB Database***
+## Generate a MongoDB Database
 
 <details>
     <summary><b>View All Steps<b><sup><kbd>Click to Expand</kbd></sup></summary>
@@ -877,7 +886,7 @@ python3 add_to_team_drive.py -d SharedTeamDriveSrcID
     
 ------
 
-### 🗃 ***Multi- Google Drive List***
+## Multi-Drive List
 
 <details>
     <summary><b>View All Steps<b><sup><kbd>Click to Expand</kbd></sup></summary>
@@ -900,7 +909,7 @@ TD2 0AO1JDB1t3i5jUk9PVA https://example.dev
 
 -----
 
-### 📢 ***Multi Shortener***
+## Multi-Shortener
 
 <details>
     <summary><b>View All Notes<b><sup><kbd>Click to Expand</kbd></sup></summary>
@@ -922,7 +931,7 @@ ouo.io LYT0zBn1
         
 -----
         
-### 🎛 ***Extra Start Buttons***
+## Extra Start Buttons
         
 <details>
     <summary><b>View All Notes<b><sup><kbd>Click to Expand</kbd></sup></summary>
@@ -934,8 +943,8 @@ button_name button_url
 ```
 Example:
 ```
-Repo_❤️ https://github.com/WZML-X 
-Updates https://t.me/WZML_X
+Repository https://github.com/SunilSSBots/ssleech-hk
+Deployment https://github.com/SunilSSBots/HK-Deploy
 ```
 - **Note**: If you want to add space in button name use `_` for add space
 
@@ -943,7 +952,7 @@ Updates https://t.me/WZML_X
         
 -----
         
-### 🔐 ***yt-dlp and Aria2c Authentication Using `.netrc` File***
+## yt-dlp and Aria2c Authentication
 
 <details>
     <summary><b>View All Steps<b><sup><kbd>Click to Expand</kbd></sup></summary>
@@ -980,7 +989,7 @@ Where host is the name of extractor (eg. instagram, Twitch). Multiple accounts o
     
 -----
 
-## 🏅 **Bot Authors**
+## Contributors
 <details>
     <summary><b>Click Here For Description</b></summary>
 
@@ -990,4 +999,3 @@ Where host is the name of extractor (eg. instagram, Twitch). Multiple accounts o
 |Author and DDL, UI Design, More Customs..|Author and Wraps Up Features|Co-Author & Bug Tester|
 
 </details>
-
