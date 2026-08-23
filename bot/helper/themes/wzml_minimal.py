@@ -220,7 +220,7 @@ class WZMLStyle:
     CANCEL = "\n┠ <b><emoji id=5334544901428229844>ℹ️</emoji> :</b> {Cancel}\n"
     mn = "┗━━༻« <b><a href=https://t.me/ML_Files>★彡 ML Files 彡★</a></b> »༺━━┛\n\n"
 
-    FOOTER = "<blockquote>┎⌬ <b><i><emoji id=5190806721286657692>📊</emoji> 𝐒𝐒 𝐁ᴏᴛs 𝐒ᴛᴀᴛs ⋆｡°✩₊˚.༄</i></b>\n"
+    FOOTER = "<blockquote>┎⌬ <b><i><emoji id=5190806721286657692>📊</emoji> ML 𝐒ᴛᴀᴛs ⋆｡°✩₊˚.༄</i></b>\n"
     TASKS = "┠ <b> 𝐓ᴀsᴋs :</b> {Tasks}\n"
     BOT_TASKS = "┠ <b> 𝐓ᴀsᴋs:</b> {Tasks}/{Ttask} | <b><emoji id=5206607081334906820>✔️</emoji> 𝐀ᴠʟ :</b> {Free}\n"
     Cpu = "┠<emoji id=5282843764451195532>🖥</emoji><b> 𝐂ᴘᴜ :</b> {cpu}% | "
