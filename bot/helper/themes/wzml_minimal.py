@@ -3,9 +3,9 @@ class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
     ST_BN1_NAME = ' 𝐎ᴡɴᴇʀ'
-    ST_BN1_URL = 'https://t.me/Sunil_Sharma_2_0'
+    ST_BN1_URL = 'https://t.me/ML_Files'
     ST_BN2_NAME = ' 𝐔ᴘᴅᴀᴛᴇs'
-    ST_BN2_URL = 'https://t.me/SSBotsUpdates'
+    ST_BN2_URL = 'https://t.me/ML_FILES'
     ST_BN3_NAME = ' 𝐁ᴀsᴇ 𝐑ᴇᴘᴏ'
     ST_BN3_URL = 'https://github.com/SilentDemonSD/WZML-X/tree/master'
     ST_MSG = """<emoji id=5210956306952758910>👀</emoji> 𝐇ᴇʟʟᴏ {name}!
@@ -158,7 +158,7 @@ class WZMLStyle:
     SIZE = "┎ <b><emoji id=5334544901428229844>ℹ️</emoji> 𝐒ɪᴢᴇ : </b>{Size}\n"
     ELAPSE = "┠ <b><emoji id=5402186569006210455>💱</emoji> 𝐄ʟᴀᴘsᴇᴅ : </b>{Time}\n"
     MODE = "┠ <b><emoji id=5202064723922670546>🪙</emoji> 𝐌ᴏᴅᴇ : </b>{Mode}\n"
-    CREDIT = "━✦❘༻ <b><a href=https://t.me/SSBotsUpdates> 𝐏𝐨ᴡᴇʀᴇᴅ 𝐁ʏ : 𝐒𝐒 𝐁ᴏᴛs</a><b> ༺❘✦━\n\n"
+    CREDIT = "━✦❘༻ <b><a href=https://t.me/ML_FILES> 𝐏𝐨ᴡᴇʀᴇᴅ 𝐁ʏ : ML Files</a><b> ༺❘✦━\n\n"
 
     # ----- LEECH -------
     L_TOTAL_FILES = "┠ <b><emoji id=5190806721286657692>📊</emoji> 𝐓ᴏᴛᴀʟ 𝐅ɪʟᴇs : </b>{Files}\n"
@@ -192,7 +192,7 @@ class WZMLStyle:
     # def get_readable_message(): ---> bot_utilis.py
     STATUS_NAME = "<b><emoji id=5294339927318739359>🎙</emoji> 𝐓ɪᴛᴛʟᴇ : </b><code> {Name}</code>"
 
-    mm = "\n\n┏━━༻«<b> <a href=https://t.me/SSBotsUpdates>★彡 𝐒𝐒 𝐁ᴏᴛs 彡★</a></b> »༺━━┓"
+    mm = "\n\n┏━━༻«<b> <a href=https://t.me/ML_Files>★彡 ML Files 彡★</a></b> »༺━━┓"
     BAR = "\n┠ {Bar}"
     PROCESSED = "\n┠<b><emoji id=5456140674028019486>⚡️</emoji> 𝐏ʀᴏᴄᴇssᴇᴅ :</b> {Processed}"
     STATUS = '\n┠ <b><emoji id=5427168083074628963>💎</emoji> 𝐒ᴛᴀᴛᴜs :</b> <a href="{Url}">{Status}</a>'
@@ -218,7 +218,7 @@ class WZMLStyle:
     ID = "\n┠ <b><emoji id=5334544901428229844>ℹ️</emoji> 𝐈𝐃 :</b> <code>{Id}</code>"
     BTSEL = "\n┠ <b><emoji id=5206607081334906820>✔️</emoji> 𝐒ᴇʟᴇᴄᴛ :</b> {Btsel}"
     CANCEL = "\n┠ <b><emoji id=5334544901428229844>ℹ️</emoji> :</b> {Cancel}\n"
-    mn = "┗━━༻« <b><a href=https://t.me/SSBotsUpdates>★彡 𝐒𝐒 𝐁ᴏᴛs 彡★</a></b> »༺━━┛\n\n"
+    mn = "┗━━༻« <b><a href=https://t.me/ML_Files>★彡 ML Files 彡★</a></b> »༺━━┛\n\n"
 
     FOOTER = "<blockquote>┎⌬ <b><i><emoji id=5190806721286657692>📊</emoji> 𝐒𝐒 𝐁ᴏᴛs 𝐒ᴛᴀᴛs ⋆｡°✩₊˚.༄</i></b>\n"
     TASKS = "┠ <b> 𝐓ᴀsᴋs :</b> {Tasks}\n"
@@ -270,7 +270,7 @@ class WZMLStyle:
 ➲ <u><b>𝐀ᴠᴀɪʟᴀʙʟᴇ 𝐀ʀɢs:</b></u>
 • <b>-s</b> or <b>-set</b>: 𝐒ᴇᴛ 𝐃ɪʀᴇᴄᴛʟʏ ᴠɪᴀ 𝐀ʀɢ
 
-✦❘༻ <b><a href=https://t.me/SSBotsUpdates>𝐏𝐨ᴡᴇʀᴇᴅ 𝐁ʏ : 𝐒𝐒 𝐁ᴏᴛs</a><b> ༺❘✦
+✦❘༻ <b><a href=https://t.me/ML_Files>𝐏𝐨ᴡᴇʀᴇᴅ 𝐁ʏ : ML Files</a><b> ༺❘✦
 """
 
     UNIVERSAL = """㊂ <b><u>𝐔ɴɪᴠᴇʀsᴀʟ 𝐒ᴇᴛᴛɪɴɢs : {NAME}</u></b>
@@ -283,7 +283,7 @@ class WZMLStyle:
 ┠ <emoji id=5334544901428229844>ℹ️</emoji> <b>𝐒ᴀᴠᴇ 𝐌ᴏᴅᴇ :</b> <i>{SAVE_MODE}</i>
 ┖ <emoji id=5445355530111437729>📤</emoji> <b>𝐔sᴇʀ 𝐁ᴏᴛ 𝐏ᴍ :</b> <i>{BOT_PM}</i>
 
-✦❘༻ <b><a href=https://t.me/SSBotsUpdates>𝐏𝐨ᴡᴇʀᴇᴅ 𝐁ʏ : 𝐒𝐒 𝐁ᴏᴛs</a><b> ༺❘✦
+✦❘༻ <b><a href=https://t.me/ML_Files>𝐏𝐨ᴡᴇʀᴇᴅ 𝐁ʏ : ML Files</a><b> ༺❘✦
 """
 
     MIRROR = """㊂ <b><u>𝐌ɪʀʀᴏʀ/𝐂ʟᴏɴᴇ 𝐒ᴇᴛᴛɪɴɢs : {NAME}</u></b>
@@ -297,7 +297,7 @@ class WZMLStyle:
 ┠ <emoji id=5190806721286657692>📊</emoji> <b>𝐓ᴏᴛᴀʟ 𝐔sᴇʀ 𝐓ᴅ(s) :</b> <i>{USERTD}</i>
 ┖ <emoji id=5429651785352501917>↗️</emoji> <b>𝐃ᴀɪʟʏ 𝐌ɪʀʀᴏʀ :</b> <i>{DM} ᴘᴇʀ ᴅᴀʏ</i>
 
-✦❘༻ <b><a href=https://t.me/SSBotsUpdates>𝐏𝐨ᴡᴇʀᴇᴅ 𝐁ʏ : 𝐒𝐒 𝐁ᴏᴛs</a><b> ༺❘✦
+✦❘༻ <b><a href=https://t.me/ML_Files>𝐏𝐨ᴡᴇʀᴇᴅ 𝐁ʏ : ML Files</a><b> ༺❘✦
 """
 
     LEECH = """㊂ <b><u>𝐋ᴇᴇᴄʜ 𝐒ᴇᴛᴛɪɴɢs : {NAME}</u></b>
@@ -317,6 +317,6 @@ class WZMLStyle:
 ┠ <emoji id=5427168083074628963>💎</emoji> <b>𝐀ᴜᴛᴏ 𝐑ᴇɴᴀᴍᴇ :</b> <i>{AUTO_RENAME}</i>
 ┖ <emoji id=5294339927318739359>🎙</emoji> <b>𝐀ᴜᴛᴏ 𝐏ᴏsᴛᴇʀ :</b> <i>{AUTO_POSTER}</i>
 
-✦❘༻ <b><a href=https://t.me/SSBotsUpdates>𝐏𝐨ᴡᴇʀᴇᴅ 𝐁ʏ : 𝐒𝐒 𝐁ᴏᴛs</a><b> ༺❘✦
+✦❘༻ <b><a href=https://t.me/ML_Files>𝐏𝐨ᴡᴇʀᴇᴅ 𝐁ʏ : ML Files</a><b> ༺❘✦
 """
     
